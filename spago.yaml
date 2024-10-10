@@ -1,0 +1,30 @@
+package:
+  name: js-date
+  publish:
+    license: MIT
+    version: 8.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-js-date
+  dependencies:
+    - datetime
+    - effect
+    - enums
+    - foreign
+    - functions
+    - integers
+    - maybe
+    - prelude
+  test:
+    main: Test.Main
+    dependencies:
+      - assert
+      - console
+      - either
+      - numbers
+      - partial
+      - transformers
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
